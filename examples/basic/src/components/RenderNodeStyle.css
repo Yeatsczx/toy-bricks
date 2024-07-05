@@ -1,0 +1,18 @@
+.component-selected {
+  position: relative;
+}
+
+.component-selected::after {
+  content: ' ';
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-width: 1px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgb(38 128 235 / var(--tw-border-opacity));
+}

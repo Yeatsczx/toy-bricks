@@ -1,0 +1,26 @@
+{
+  "name": "@czxiao/toy-bricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "cd examples/basic && pnpm run start",
+    "build:example": "cd examples/basic && pnpm run build",
+    "build:package": "cd packages/toy-bricks && pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yeatsczx/toy-bricks"
+  },
+  "author": "engineerczx@foxmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "father-build": "^1.22.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

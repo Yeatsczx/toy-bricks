@@ -1,0 +1,23 @@
+.Component--card:hover {
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+}
+
+.Component--card {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.3333333333%;
+  height: 114px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+  transition: -webkit-box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
